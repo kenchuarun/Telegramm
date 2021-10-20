@@ -16,7 +16,7 @@ code {
     border-radius: 4px;
 }
 pre {
-    display: block;
+    display: grid;
     margin: 0;
     line-height: 1.42857143;
     word-break: break-all;
@@ -33,7 +33,7 @@ pre {
 .clearfix:after {
     content: " ";
     visibility: hidden;
-    display: block;
+    display: grid;
     height: 0;
     clear: both;
 }
@@ -112,7 +112,7 @@ pre {
     overflow: hidden;
 }
 .userpic .initials {
-    display: block;
+    display: none;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -286,7 +286,7 @@ div.selected {
     font-weight: normal;
 }
 .default .body {
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 .default .text {
     word-wrap: break-word;
